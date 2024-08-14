@@ -1,0 +1,28 @@
+.vitae {
+    display: flex;
+}
+p {
+    font-size: 30px;
+    padding-top: 190px;
+}
+.ver {
+    border-left: 1px solid black;
+    height: 620px;
+    margin-left: 550px;
+}
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+
+}
+.qa {
+    margin-bottom: 200px;
+}
+.qc {
+    margin-top: 200px;
+}
+.sam {
+    padding: 25px;
+}
