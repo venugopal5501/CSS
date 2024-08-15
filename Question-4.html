@@ -2,23 +2,35 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
+
     <title>Nav bar</title>
+    <script>
+        function personal(){
+            document.getElementById('content').innerHTML='<strong>PERSONAL DATA</strong><br><br>Name: Azamat<br>Surname: Azamat<br>Date of birth : 30.07.74<br>Place of birth : Bishkek, Kyrgysztan<br><br>';
+        }
+        function education(){
+            document.getElementById('content').innerHTML='<strong>Education</strong><br><br> <strong style="padding-right:10px">2005-2002</strong>Computer Engineering in the <span style="marging-left=20px">Technical University of kyrgyzstan in Bishkek</span><br><br><strong style="padding-right:10px">2001-2005</strong>High School "Manas" in Osh<br><br><strong style="padding-right:10px">1995-2001</strong>Primary School<br><br>';
+        }
+        function experience(){
+            document.getElementById('content').innerHTML='<strong>Professional experience</strong><br><br><strong style="padding-right:10px">2007-2009</strong>Computer teacher in High School in Bishkek<br><br><strong style="padding-right:10px">2005-2007</strong>Secretary of Department of Software in Technical University of Kyrgyzstan in Bishkek';
+        }
+        </script>
 </head>
 <body>
     <div class="vitae">
         <h1 style="margin-left: 250px;">Curriculum Vitae</h1>
-        <p style="margin-left: -240px;">Welcome to my CV!</p>
+        <p id="content" id="content" style="margin-left: -240px;">Welcome to my CV!</p>
         <div class="ver">
             <div class="nav">
                 <div class="qa">
                     <nav>
-                        <a href="#">Personal data</a>
+                        <a href="#" onclick="personal()">Personal data</a>
                 </div>
                 <div class="qb"></div>
-                <a href="#">Education</a>
+                <a href="#" onclick="education()">Education</a>
                 </qb>
                 <div class="qc">
-                    <a href="#">Professional <br><span class="sam">experience</span></a>
+                    <a href="#" onclick="experience()">Professional <br><span class="sam">experience</span></a>
                     </qc>
                     </nav>
 
